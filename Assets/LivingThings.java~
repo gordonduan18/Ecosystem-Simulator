@@ -1,0 +1,14 @@
+abstract class LivingThings{
+  private int health;
+  private Coordinate coordinate;
+  LivingThings(Coordinate coordinate, int health){
+    this.coordinate = coordinate;
+    this.health = health;
+  }
+  public int getHealth(){
+    return this.health;
+  }
+  public Coordinate getCoordinate(){
+    return this.coordinate;
+  }
+}
